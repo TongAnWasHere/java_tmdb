@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Main {
     void main() throws Exception {
+        String TMDB_ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyZGQ3ODUyZDIwNDMzODcwNDAyNDA1MmJlNWYzYmJhZSIsIm5iZiI6MTc4NjM4MTcyNS4xNzI5OTk5LCJzdWIiOiI2YTdhMDU5ZDRmNmIzYmMyNTdkY2IxMjYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.biny_ABliXhAlkb_VUexTmM7Sxep-B4NP2jp5KwCMaM";
+
         Scanner scanner = new Scanner(System.in);
         MovieService movieService = new MovieService();
 
